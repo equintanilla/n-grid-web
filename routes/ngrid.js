@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var nGridService = require('../services/nGridService');
+var nGridService = require(global.__base + '/services/nGridService');
 var pages = {};
 router.get('/', function (req, res, next) {
     var pageName = req.query.page;
