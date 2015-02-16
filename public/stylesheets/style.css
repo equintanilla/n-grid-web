@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+td{
+    text-align: center;
+    /*padding: 50px 0 50px 0;*/
+    height: 150px;
+    width: 150px;
+    border:1px solid gray;
+
+}
+
+.drag{
+    text-align: center;
+    /*padding: 50px 0 50px 0;*/
+    height: 150px;
+    width: 150px;
+    border:1px solid gray;
+
+}

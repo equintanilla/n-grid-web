@@ -1,0 +1,12 @@
+<div data-ng-controller="nGridController as ctrl">
+    <table>
+        <tbody>
+        <tr data-ng-repeat="row in ctrl.grid">
+            <td data-ng-repeat="cell in row" data-ng-click="ctrl.onCellClick(cell)" draggable="{{cell.show}}" data-on-drop="ctrl.onDragDrop()" data-on-drag-start="ctrl.onDragStart" data-on-drag-end="ctrl.onDragEnd" data-element-data="cell">
+                <span data-ng-show="cell.show">x</span>
+            </td>
+        </tr>
+        </tbody>
+
+    </table>
+</div>
